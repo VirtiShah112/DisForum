@@ -292,6 +292,7 @@ print MAIN qq~
 <td width="100%"> <a onMouseover="AL(this)" onMouseOut="BL(this)" href="$sff" id="DynMessLink" name="$num" class="newMsg"><b>$subject</b></a>
 </td></tr></table></td><td width="30%"><a onMouseover="AL(this)" onMouseOut="BL(this)" href="mailto: $email" class="newMsg">
 $name</a></td><td nowrap align="right" width="20%">
+<font class="newMsg"><b>$email</b></font></td><td nowrap align="right" width="20%">
 <font class="newMsg"><b>$date</b></font></td></tr>
 
 <tr id="$ap$pa" style="display:none"><td colspan="4" width="100%">
@@ -313,6 +314,7 @@ print MAIN qq~
 <td width="100%"> <a onMouseover="AL(this)" onMouseOut="BL(this)" href="$sff" id="DynMessLink" name="$num" class="newMsg"><b>$subject</b></a>
 </td></tr></table></td><td width="30%"><a onMouseover="AL(this)" onMouseOut="BL(this)" href="mailto: $email" class="newMsg">
 $name</a></td><td nowrap align="right" width="20%">
+<font class="newMsg"><b>$email</b></font></td><td nowrap align="right" width="20%">
 <font class="newMsg"><b>$date</b></font></td></tr>
 
 <tr id="$ap$pa" style="display:none"><td colspan="4" width="100%">
