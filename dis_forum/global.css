@@ -1,0 +1,25 @@
+.MainMsg {
+        color: #000000;
+        font-family: tahoma, verdana, arial, helvetica;
+        font-size: 9pt;
+	TEXT-DECORATION: None;
+}
+.tdBG {
+BACKGROUND-COLOR: #FEF9E7;
+}
+.newMsg {
+        color: #000000;
+        font-family: verdana, tahoma, arial, helvetica;
+        font-size: 10pt;
+        font-weight: bold;
+	TEXT-DECORATION: None;
+}
+.MsgContent {
+        color: #000000;
+        font-family: verdana, tahoma, arial, helvetica;
+        font-size: 10pt;
+	TEXT-DECORATION: None;
+}
+
+
+

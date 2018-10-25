@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Code Project Discussion Forums in Perl</title>
+<LINK href="global.css" rel="stylesheet" type="text/css">
+<script language="Javascript" src="mouse.js"></script>
+
+<script language="JavaScript">
+var Selected = "";
+var AdTime = new Date();
+document.writeln("<iframe name=AdFrame width=0 height=0 frameborder=0></IFRAME>");
+</script>
+<script language="JavaScript" event="onclick" for="DynMessLink">
+
+	var now = new Date();
+	if (now - AdTime > 5000)
+	{
+		AdTime = now;
+		var loc = document.frames("AdFrame");
+		if (loc) loc = loc.document;
+		if (loc) loc = loc.location;
+	}
+	
+	var elmref;
+	if (Selected != "")
+	{
+		elmref = eval("document.all('" + Selected + "_h1')");
+		if (elmref) elmref.style.display = 'none';
+		elmref = eval("document.all('" + Selected + "_h0')");
+		if (elmref) elmref.bgColor = '#FEF9E7';
+	}
+	Selected = this.name;
+	
+	elmref = eval("document.all('" + this.name + "_h1')");
+	if (elmref) 
+	{
+		if (elmref.style.display=='none') elmref.style.display='';
+		else elmref.style.display = 'none';
+	}
+	elmref = eval("document.all('" + this.name + "_h0')");
+	if (elmref) 
+	{
+		elmref.bgColor = '#99CCFF';
+	}
+	window.navigate("#xx" + Selected + "xx");
+	return false;
+</script>
+</head>
+
+<body bgcolor="#ffffff">	
+
+
+<p><a href="new.html" onMouseover="AL(this)" onMouseout="BL(this)" class="newMsg">[ New Message ]</a><p>
+
+<table border="0" bgcolor="#ff9900" cellpadding="1" cellspacing="0" width="100%"><tr><td>
+<table border="0" bgcolor="#ffffff" cellpadding="0" cellspacing="0" width="100%">
+<tr bgcolor="#fbedbb" width="100%">
+<td width="50%"><font class="newMsg">Message</font></td>
+<td width="25%"><font class="newMsg">Author</font></td>
+<td width="25%"><font class="newMsg">Time</font></td>
+</tr>
+
+<tr bgcolor="#ffffff" width="100%" height="2">
+<td width="50%"></td>
+<td width="25%"></td>
+<td width="25%"></td>
+</tr>
+
+<!--begin-->
+
+		
+		
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+	
+</table>
+</td></tr></table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
